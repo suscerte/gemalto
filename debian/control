@@ -1,0 +1,11 @@
+Source: gemalto
+Section: misc
+Priority: optional
+Maintainer: Axel Díaz <diaz.axelio@gmail.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.2
+
+Package: gemalto
+Architecture: all
+Depends: libclassicclient, libusb-dev, libusb++-0.1-4c2, libccid, pcscd, libpcsclite1, libpcsclite-dev, libpcsc-perl, pcsc-tools
+Description: Meta-paquete con la librería de drivers para las lectoras y tarjetas inteligentes de Gemalto
